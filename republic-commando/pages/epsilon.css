@@ -10,7 +10,7 @@
 }
 
 .element video{
-    position:absolute;
+    position:fixed;
     min-width: 100%;
     height: 1900px;
     top:50%;
@@ -65,12 +65,13 @@
     background-color: rgba(0, 0, 0, 0.534);
     margin-top:40px;
     margin-left:50%;
+    margin-bottom: 80px;
     transform:translate(-50%);
     font-family: 'Orbitron' ;
 }
 
 .article p{
-    margin-top: 90%;
+    margin: 30px;
     font-weight: bold;
 }
 
