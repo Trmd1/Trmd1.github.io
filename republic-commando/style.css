@@ -1,5 +1,6 @@
 *{
     margin:0;
+    opacity: 100%;
 }
 
 .element{
@@ -66,3 +67,17 @@
     padding-bottom:5px;
     border-radius: 50px;
 }
+
+.element img{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    opacity: 15%;
+    animation: opacity_change 8s infinite;
+}
+
+@keyframes opacity_change {
+    50%{opacity:100%};
+}
+
