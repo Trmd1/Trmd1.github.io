@@ -27,12 +27,17 @@ a:hover {
 	color: rgb(255, 51, 51);
 }
 
+.uzumaki{
+    color: rgb(148, 36, 51);
+    font-weight: bold;
+}
+
 p {
     line-height: 1.7;
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 .highlight {
